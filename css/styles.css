@@ -1,0 +1,156 @@
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+
+#title{
+  background-color: #ff4c68;
+}
+
+nav{
+  padding-bottom: 4.5rem;
+}
+
+h1{
+  color: white;
+  font-size: 4.5rem;
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.5;
+}
+
+h2{
+  font-family: "Montserrat-Bold";
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.container{
+  padding: 3% 15% 10%;
+}
+
+.btn{
+  margin: 5px;
+}
+
+/* navigation bar */
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-size: 4rem;
+  font-weight: bold;
+}
+
+.nav-item{
+  padding: 0 18px;
+}
+
+.navbar{
+  padding: 0 0 18px;
+}
+
+/* Title image */
+.title-img{
+  width: 50%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+
+@media(max-width:990px){
+  #title{
+    text-align: center;
+  }
+
+  .title-img{
+    transform: rotate(0deg);
+    position: static;
+  }
+}
+
+/* Features  */
+#features{
+  padding: 7% 15%;
+  background-color:lightblue;
+  position: relative;
+  z-index: 1;
+}
+
+.feature-box{
+  text-align: center;
+  padding: 5%;
+}
+
+h3{
+  font-family: "Montserrat-bold";
+}
+
+p{
+  color: #8f8f8f;
+}
+.fa-4x{
+  margin-bottom: 1rem;
+}
+.fa-4x:hover{
+  color: #ff4c68;
+  padding: 2%;
+}
+
+/* Testimonial Section */
+#testimonials{
+  text-align: center;
+  background-color: lightpink;
+}
+
+.testimonial-img{
+  border-radius: 100%;
+  width: 20%;
+}
+
+.carousel-item{
+    padding: 7% 15%;
+}
+
+#press{
+  background-color: lightpink;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-logo{
+  width: 15%;
+  margin: 20px;
+}
+
+/* pricing section */
+#pricing{
+  padding: 100px;
+  text-align: center;
+  background-color: #adf7;
+}
+
+.pricing-col{
+  padding: 3% 2%;
+}
+
+/* call to action section */
+#cta{
+  background-color: #ff4c68;
+  text-align: center;
+  padding: 6% 33%;
+  color: #fff;
+}
+
+.cta-heading{
+  color: white;
+  line-height: 1.5;
+  font-size: 5rem;
+}
+
+/* footer scetion */
+#footer{
+  background-color: lightpink;
+  padding: 7% 15%;
+  text-align: center;
+}
+
+.social-icons{
+  margin: 1% 1%;
+}
